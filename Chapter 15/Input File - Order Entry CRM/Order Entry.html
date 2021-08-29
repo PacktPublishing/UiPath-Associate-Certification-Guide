@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE> Henry's Food Mart </TITLE>
+        <SCRIPT language="javascript">
+            function addRow(tableID) {
+    
+                var table = document.getElementById(tableID);
+    
+                var rowCount = table.rows.length;
+                var row = table.insertRow(rowCount);
+    
+                var cell1 = row.insertCell(0);
+                var element1 = document.createElement("input");
+                element1.type = "text";
+                // element1.id="quantity"
+                cell1.appendChild(element1);
+    
+                var cell2 = row.insertCell(1);
+                var element2 = document.createElement("input");
+                element2.type = "text";
+                // element1.id="description"
+                cell2.appendChild(element2);
+
+                var cell3 = row.insertCell(2);
+                var element3 = document.createElement("input");
+                element3.type = "text";
+                // element1.id="unitPrice"
+                cell3.appendChild(element3);
+
+                var cell4 = row.insertCell(3);
+                var element4 = document.createElement("input");
+                element4.type = "text";
+                // element1.id="lineTotal"
+                cell4.appendChild(element4);
+    
+    
+            }
+
+    
+        </SCRIPT>
+<style>
+#dataTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #dataTable td, #dataTable th {
+    border: 1px solid #ddd;
+  }
+  
+  #dataTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #dataTable tr:hover {background-color: #ddd;}
+  
+  #dataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(10, 157, 241);
+    color: white;
+  }
+
+  input[type=text], select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  font-size: x-large;
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=button] {
+  font-size: large;
+  width: 10%;
+  background-color: rgb(10, 157, 241);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  width: 48%;
+  padding: 14px 20px;
+  background-color: rgb(10, 157, 241);
+  color: white;
+  
+  
+}
+
+ div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+  </style>
+
+    </HEAD>
+    <BODY>
+       <form>
+            <div>
+                
+                <table>
+                  <tr>
+                    <h1>Henry's Food Mart Order Entry</h1>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="invoiceDate"><strong>Invoice Date</strong></label>
+                      <input type="text" id="invoiceDate" name="invoiceDate" >
+                    </td>
+                    <td>
+                      <label for="invoiceNumber"><strong>Invoice Number</strong></label>
+                      <input type="text" id="invoiceNumber" name="invoiceNumber" >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <label for="customerName"><strong>Customer Name</strong></label>
+                      <input type="text" id="customerName" name="customerName" >
+                    </td>
+                    <td>
+                      <label for="customerAddress"><strong>Customer Address</strong></label>
+                      <input type="text" id="customerAddress" name="customerAddress" >
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <label for="customerPhoneNo"><strong>Customer Ph.No</strong></label>
+                      <input type="text" id="customerPhoneNo" name="customerPhoneNo" >
+                    </td>
+                    <td>
+                      <label for="customerEmail"><strong>Customer Email</strong></label>
+                      <input type="text" id="customerEmail" name="customerEmail" >
+                    </td>
+                  </tr>
+
+                </table>
+                <!-- <label for="invoiceDate"><strong>Invoice Date</strong></label>
+                <input type="text" id="invoiceDate" name="invoiceDate" >
+
+                <label for="invoiceNumber"><strong>Invoice Number</strong></label>
+                <input type="text" id="invoiceNumber" name="invoiceNumber" >
+
+                <label for="customerName"><strong>Customer Name</strong></label>
+                <input type="text" id="customerName" name="customerName" >
+
+                <label for="customerAddress"><strong>Customer Address</strong></label>
+                <input type="text" id="customerAddress" name="customerAddress" >
+
+                <label for="customerPhoneNo"><strong>Customer Ph.No</strong></label>
+                <input type="text" id="customerPhoneNo" name="customerPhoneNo" >
+
+                <label for="customerEmail"><strong>Customer Email</strong></label>
+                <input type="text" id="customerEmail" name="customerEmail" > -->
+            </div>
+
+           <div>
+        <TABLE id="dataTable">
+            <TR>
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+                <th>Line Total</th>
+            </TR>
+
+            <!-- <TR>
+                <TD><INPUT type="checkbox" name="chk"/></TD>
+                <TD> 1 </TD>
+                <TD> <INPUT type="text" /> </TD>
+            </TR> -->
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </TABLE>
+
+            <INPUT type="button" value="Add new entry" onclick="addRow('dataTable')" />
+               
+            <!-- id="quantity" -->
+            <!-- id="description"
+            id="unitPrice"
+            id="lineTotal" -->
+        <table>
+          <tr>
+              <td>
+                <label for="subTotal"><strong>Subtotal</strong></label>
+                <input type="text" id="subTotal" name="subTotal" >
+              </td>
+              <td>
+                <label for="shipping"><strong>Shipping</strong></label>
+                <input type="text" id="shipping" name="shipping" >
+              </td>
+              <td>
+                <label for="total"><strong>Total</strong></label>
+                <input type="text" id="total" name="total" >
+              </td>
+          </tr>
+        </table>
+        </div>
+        <input type="submit" value="Submit">
+       </form>
+
+    </BODY>
+    </HTML>
