@@ -9,7 +9,7 @@ This is the code repository for [UiPath Associate Certification Guide](https://w
 ## What is this book about?
 UiPath is the most popular vendor in the robotic process automation (RPA) industry. If you're an RPA enthusiast or citizen developer who wants to succeed in the industry, achieving this certification can help you get accredited and ready for real-world challenges using UiPath.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Get to grips with the basic concepts of UiPath RPA
 * Equip yourself with every resource required to pass the Associate exam on the first attempt
 * Gain the ability to apply what you've learned using real-world use cases
