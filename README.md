@@ -52,3 +52,7 @@ is a UiPath MVP/ UiPath Community Leader/ UiPath Moderator/ RPA Solution Archite
 
 **Rajaneesh Balakrishnan**
 is the founder of 2AutomateAnything and has been a UiPath Advanced Certified RPA developer and UiPath MVP since 2020. He started his career as a quality analyst, progressed to become a soft ware testing practice lead, and then became an RPA lead with immense automation tool implementation and multiple domain experience, including BFSI. Having over 15 years of experience in IT, he has successfully implemented RPA in UiPath for many reputable clients and has saved a significant amount of time and cost to organizations. He is also a passionate teacher, conducting various corporate and personalized training events and guiding the careers of many toward RPA in UiPath. He used to share educational content on YouTube, Udemy, and LinkedIn to support the UiPath community.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801072731">https://packt.link/free-ebook/9781801072731 </a> </p>
