@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781801072731)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # UiPath Associate Certification Guide
 
 <a href="https://www.packtpub.com/product/uipath-associate-certification-guide/97818010727316?utm_source=github&utm_medium=repository&utm_campaign=97818010727316"><img src="https://static.packt-cdn.com/products/9781801072731/cover/smaller" alt="UiPath Associate Certification Guide" height="256px" align="right"></a>
